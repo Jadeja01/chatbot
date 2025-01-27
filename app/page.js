@@ -95,8 +95,7 @@ export default function Home() {
           Get instant assistance and explore government schemes with our AI-powered chatbot.
         </p>
         <iframe
-          src="https://cdn.botpress.cloud/webchat/v2.2/shareable.html?configUrl=https://files.bpcontent.cloud/2025/01/27/15/20250127151749-A667ZVUL.json"
-          title="Amreli District Bot"
+          src={process.env.bot_url}
           className="w-100"
           style={{ height: "600px", border: "none" }}
           allow="microphone"
