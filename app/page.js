@@ -1,6 +1,7 @@
 import React from "react";
 import Head from "next/head";
 import 'bootstrap/dist/css/bootstrap.min.css';
+import "./importjs.js"
 
 export default function Home() {
   return (
@@ -13,8 +14,6 @@ export default function Home() {
         />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-
-      {/* Header */}
       <nav className="navbar navbar-expand-lg navbar-dark bg-primary shadow-lg">
         <div className="container">
           <a className="navbar-brand" href="#home">Amreli District Schemes</a>
@@ -36,8 +35,6 @@ export default function Home() {
           </div>
         </div>
       </nav>
-
-      {/* Hero Section */}
       <div
         className="d-flex align-items-center justify-content-center text-center text-white bg-primary py-5"
         style={{ height: "60vh", backgroundImage: "url('/background.jpg')", backgroundSize: "cover", backgroundPosition: "center" }}
@@ -64,24 +61,36 @@ export default function Home() {
           <div className="col-md-4">
             <div className="card h-100">
               <div className="card-body">
-                <h5 className="card-title">Scheme 1</h5>
+                <h5 className="card-title">National Social Assistance Programme (NSAP)</h5>
                 <p className="card-text">Brief description of the scheme.</p>
+                <a href="#chat" className="btn btn-warning btn-lg">Chat with our Bot </a>
               </div>
             </div>
           </div>
           <div className="col-md-4">
             <div className="card h-100">
               <div className="card-body">
-                <h5 className="card-title">Scheme 2</h5>
+                <h5 className="card-title">Pradhan Mantri Jeevan Jyoti Bima Yojana (PMJJBY)</h5>
                 <p className="card-text">Brief description of the scheme.</p>
+                <a href="#chat" className="btn btn-warning btn-lg">Chat with our Bot</a>
               </div>
             </div>
           </div>
           <div className="col-md-4">
             <div className="card h-100">
               <div className="card-body">
-                <h5 className="card-title">Scheme 3</h5>
+                <h5 className="card-title">National Health Mission (NHM)</h5>
                 <p className="card-text">Brief description of the scheme.</p>
+                <a href="#chat" className="btn btn-warning btn-lg">Chat with our Bot</a>
+              </div>
+            </div>
+          </div>
+          <div className="col-md-4">
+            <div className="card h-100">
+              <div className="card-body">
+                <h5 className="card-title">Pradhan Mantri Suraksha Bima Yojana (PMSBY)</h5>
+                <p className="card-text">Brief description of the scheme.</p>
+                <a href="#chat" className="btn btn-warning btn-lg">Chat with our Bot</a>
               </div>
             </div>
           </div>
