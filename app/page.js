@@ -2,6 +2,7 @@ import React from "react";
 import Head from "next/head";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import "./importjs.js"
+import "./globals.css"
 
 export default function Home() {
   return (
@@ -37,7 +38,7 @@ export default function Home() {
       </nav>
       <div
         className="d-flex align-items-center justify-content-center text-center text-white bg-primary py-5"
-        style={{ height: "60vh", backgroundImage: "url('/background.jpg')", backgroundSize: "cover", backgroundPosition: "center" }}
+        style={{ height: "60vh"}}
       >
         <div className="p-4 bg-dark bg-opacity-50 rounded">
           <h1 className="display-4 fw-bold">Welcome to Amreli District Schemes Portal</h1>

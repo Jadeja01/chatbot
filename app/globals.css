@@ -40,3 +40,9 @@ a {
     color-scheme: dark;
   }
 }
+.bpComposerPoweredBy{
+  display: none;
+}
+.bpContainer{
+  background-color: white ;
+}
