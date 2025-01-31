@@ -23,8 +23,15 @@ export default function Home() {
             Discover and explore government schemes tailored for you.
           </p>
           <Link href="/chatbot" className="btn btn-warning btn-lg">
-            Chat with our Bot
+            Chat with our website Bot
           </Link>
+          <div className="row mt-5">
+          <div className="col-12 text-center">
+            <a href="https://t.me/amreliinfo_bot" className="btn btn-primary btn-lg" target="_blank" rel="noopener noreferrer">
+              Chat with our Telegram Bot
+            </a>
+          </div>
+        </div>
         </div>
       </div>
 
