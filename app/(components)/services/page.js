@@ -4,7 +4,6 @@ import Navbar from "../nav/page";
 export default function Services(){
     return (
         <div>
-            <Navbar/>
         <section id="services" className="py-5 bg-light">
         <div className="container">
           <h2 className="text-center mb-4">Our Services</h2>
@@ -36,7 +35,6 @@ export default function Services(){
           </div>
         </div>
       </section>
-      <Footer/>
       </div>
 
     )

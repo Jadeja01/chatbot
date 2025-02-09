@@ -5,7 +5,6 @@ import Navbar from "../nav/page";
 export default function Schemes(){
     return (
         <div>
-            <Navbar/>
         <div id="schemes" className="container py-5">
                 <h2 className="text-center mb-4">Current on going Schemes</h2>
                 <div className="row g-4">
@@ -48,7 +47,6 @@ export default function Schemes(){
                   </div>
                 </div>
               </div>
-              <Footer/>
               </div>
     )
 }

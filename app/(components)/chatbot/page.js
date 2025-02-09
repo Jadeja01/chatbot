@@ -5,7 +5,6 @@ import Footer from "../footer/page";
 export default function Chatbot() {
   return (
     <div>
-      <Navbar />
       <div className="container mt-5">
         <div className="row">
           <div className="col-12">

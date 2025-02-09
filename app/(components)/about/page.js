@@ -4,7 +4,6 @@ import Navbar from "../nav/page";
 export default function About(){
     return (
         <div>
-            <Navbar/>
         <section id="about" className="py-5 bg-light">
         <div className="container">
           <h2 className="text-center mb-4">About Us</h2>
@@ -47,7 +46,6 @@ export default function About(){
           </div>
         </div>
       </section>
-      <Footer/>
       </div>
     )
 }
