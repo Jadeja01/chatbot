@@ -1,13 +1,12 @@
 import React from "react";
-import "bootstrap/dist/css/bootstrap.min.css";
-import "./importjs.js";
-import "./globals.css";
 import Navbar from "./(components)/nav/page.js";
 import Link from "next/link.js";
 import Footer from "./(components)/footer/page.js";
 import About from "./(components)/about/page.js";
 import Services from "./(components)/services/page.js";
 import Schemes from "./(components)/schemes/page.js";
+
+import "bootstrap/dist/css/bootstrap.min.css";
 
 export default function Home() {
   return (
@@ -19,13 +18,13 @@ export default function Home() {
       >
         <div className="p-4 bg-dark bg-opacity-50 rounded">
           <h1 className="display-4 fw-bold">
-            Welcome to Amreli District Schemes Portal
+            Welcome to Amreli District Portal
           </h1>
           <p className="lead">
             Discover and explore government schemes tailored for you.
           </p>
           <Link href="/chatbot" className="btn btn-warning btn-lg">
-            Chat with our website Bot
+            Chat with our Website Bot
           </Link>
           <div className="row mt-5">
             <div className="col-12 text-center">

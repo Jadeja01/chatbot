@@ -1,18 +1,13 @@
-import "./globals.css";
-import "./importjs.js";
-
-
-export const metadata = {
-  title: "Amreli District Portal",
-  description: "We are here for you.",
-};
+import React from "react";
+import MyApp from "./importjs.js";
 
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body>
-        {children}
-        
+        <MyApp>
+          {children}
+        </MyApp>
       </body>
     </html>
   );

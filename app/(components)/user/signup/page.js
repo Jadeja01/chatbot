@@ -9,7 +9,7 @@ export default function Signup() {
         </Link>
       </div>
       <form>
-      <div class="mb-3">
+      <div className="mb-3">
           <label htmlFor="exampleInputUsername" className="form-label">
             Username
           </label>
