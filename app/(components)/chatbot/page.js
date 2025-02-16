@@ -1,5 +1,6 @@
 import Link from "next/link";
-import Navbar from "../nav/page";
+import "bootstrap/dist/css/bootstrap.min.css";
+
 import Footer from "../footer/page";
 
 export default function Chatbot() {

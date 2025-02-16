@@ -5,7 +5,7 @@ import Footer from "./(components)/footer/page.js";
 import About from "./(components)/about/page.js";
 import Services from "./(components)/services/page.js";
 import Schemes from "./(components)/schemes/page.js";
-
+import "./globals.css"
 import "bootstrap/dist/css/bootstrap.min.css";
 
 export default function Home() {
